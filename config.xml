@@ -4,10 +4,10 @@
         id        = "com.phonegap.SarisariStoreApplication"
         version   = "1.0.0">
 
-<name>Sarisari Application</name>
+<name>Sarisaristore.com</name>
 
 <description>
-a simple Sarisari Store Application.
+a simple Sarisaristore Application.
 </description>
 
 <author href="https://sarisaristore.com" email="suport@sarisaristore.com">
