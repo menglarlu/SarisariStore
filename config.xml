@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns     = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        id        = "com.phonegap.SarisariStoreApplication"
+        version   = "1.0.0">
+
+<name>Sarisari Application</name>
+
+<description>
+a simple Sarisari Store Application.
+</description>
+
+<author href="https://sarisaristore.com" email="suport@sarisaristore.com">
+Sarisari Store.com
+</author>
+
+<feature name="http://api.phonegap.com/1.0/device" />
+
+<preference name="permissions"                value="none"/>
+<preference name="orientation"                value="portrait" /> 		<!-- All -->
+<preference name="target-device"              value="handset" /> 		<!-- ios -->
+<preference name="fullscreen"                 value="true" /> 			<!-- All -->
+<preference name="webviewbounce"              value="true" /> 			<!-- ios -->
+<preference name="prerendered-icon"           value="false" />			<!-- ios -->
+<preference name="stay-in-webview"            value="false" /> 			<!-- ios -->
+<preference name="ios-statusbarstyle"         value="black-opaque" /> 	<!-- ios -->
+<preference name="detect-data-types"          value="true" /> 			<!-- ios -->
+<preference name="exit-on-suspend"            value="true" /> 			<!-- ios -->
+<preference name="show-splash-screen-spinner" value="true" /> 			<!-- ios -->
+<preference name="auto-hide-splash-screen"    value="true" /> 			<!-- ios -->
+<preference name="disable-cursor"             value="false" /> 			<!-- BB -->
+<preference name="android-minSdkVersion"      value="7" /> 				<!-- android -->
+<preference name="android-installLocation"    value="auto" /> 			<!-- android -->
+  
+<!-- icons -->
+<icon src="icon.png" />
+
+<!-- splash -->
+<gap:splash src="splash.png" />
+<gap:splash src="resources\screens\android\36Ldpi240x320.png"  gap:platform="android" gap:density="ldpi" />
+<gap:splash src="resources\screens\android\48mdpi320x480.png"  gap:platform="android" gap:density="mdpi" />
+<gap:splash src="resources\screens\android\72hdpi480x800.png"  gap:platform="android" gap:density="hdpi" />
+<gap:splash src="resources\screens\android\96xhdpi720x1280.png" gap:platform="android" gap:density="xhdpi" />
+
+</widget>
