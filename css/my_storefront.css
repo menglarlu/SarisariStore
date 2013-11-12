@@ -1,0 +1,35 @@
+@charset "utf-8";
+body
+{
+	margin: 0;
+	font-size: 14px;
+    line-height: 20px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    position: relative;
+    -webkit-transition: left .2s ease;
+}
+html 
+{
+  font-size: 100%;
+  -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+}
+.rough-texture
+{	
+    background: url(../resources/images/creampaper.jpg);
+}
+.storefront-menu
+{
+    text-align:center;    
+}
+.storefront-menu,
+.storefront-menu ul
+{
+list-style-type: none;
+}
+.storefront-menu a
+{
+    text-decoration:none;
+    color: #000;
+}
+

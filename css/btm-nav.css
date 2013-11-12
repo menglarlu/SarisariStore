@@ -1,0 +1,43 @@
+.btm-nav
+{
+    height: 98px;
+    left:0;
+    right:0;
+    bottom:0;
+    position:fixed;
+    background-image: linear-gradient(#444, #111);
+}
+.btm-nav-content
+{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.btm-nav-content li
+{
+    float: left;
+	position: relative;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+.home
+{
+    border: 1px solid #222;
+}
+.message
+{
+
+}
+.upload
+{
+
+}
+.cart
+{
+
+}
+.menu
+{
+
+}

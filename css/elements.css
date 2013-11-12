@@ -1,0 +1,89 @@
+
+.input-signup
+{
+	background: transparent;
+	box-shadow: none;
+	border: none;
+	border-left: solid 1px lightgray;
+	text-align: right;
+	padding-right: 30px;
+
+}
+
+.input-signup:focus
+{
+	outline: 0;
+	
+}
+
+.note
+{
+	font-style: italic;
+	font-size: 70%;
+	color: #999999;
+}
+
+.head-title
+{
+	margin-left: 30%;
+
+}
+
+.label-div
+{
+	<!--background-image:url('../delete_control.png');-->
+	background-repeat:no-repeat;
+	background-position: right center;
+	border: 1px solid lightgray;
+	border-radius: 8px;
+	max-height:40px;
+	padding:10px;
+	background-color: white;
+	text-align: left;
+	vertical-align: middle;
+	color: lightgray;
+}
+.label-div:focus,
+.label-div:hover
+{   
+    background:#DFE9EC; 
+    text-shadow: 1px 1px 0 rgba(256, 256, 256, 1.0);
+    outline-color:invert;
+}
+
+.disclosure
+{
+	float: right;
+	position: right;
+}
+
+@media only screen and (max-width: 720px)
+{
+    
+}
+@media only screen and (max-width: 640px)
+{
+    .head-title
+	{
+		margin-left: 180px;
+	}
+}
+@media only screen and (max-width: 480px)
+{
+    .head-title
+	{
+		margin-left: 100px;
+	}
+}
+@media only screen and (max-width: 320px)
+{
+     .head-title
+	{
+		margin-left: 23px;
+	}
+}
+@media only screen and (max-width: 200px)
+{
+    
+}
+
