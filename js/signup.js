@@ -59,6 +59,22 @@ $("#tbEmail").keypress(function(){
 	$("#tbGender").keyup(function(){
 		appearClearbtn("tbGender");
 	});
+	
+	if((window.location.search).toLowerCase().indexOf("female")>=0)
+		{
+			$("#femaleCheck").removeAttr("hidden");
+			$("#tbGender").val("Female");
+			$("#genderHref").attr('href', 'gender.html?selected=female');
+		
+		}
+	else
+		{
+			$("#maleCheck").removeAttr("hidden");
+			$("#tbGender").val("Male");
+			$("#genderHref").attr('href', 'gender.html?selected=male');
+		}
+	
+	
 });
 
 

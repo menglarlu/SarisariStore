@@ -57,6 +57,23 @@
 	position: right;
 }
 
+.disclosure-subdetail
+{
+background: #FFF;
+text-align: left;
+border-bottom: solid 1px lightgray;
+}
+.disclosure-subdetail:focus,
+.disclosure-subdetail:hover
+{   
+    background:#DFE9EC; 
+    text-shadow: 1px 1px 0 rgba(256, 256, 256, 1.0);
+    outline-color:invert;
+}
+
+
+
+
 @media only screen and (max-width: 720px)
 {
     
